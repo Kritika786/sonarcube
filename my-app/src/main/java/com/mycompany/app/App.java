@@ -6,7 +6,7 @@ package com.mycompany.app;
  */
 public class App 
 {
-    public static void main( String[] args )
+    public static void main( String[] char)
     {
         System.out.println( "Hello World!" );
 
@@ -36,4 +36,4 @@ public class App
 }
     }
 }
-i
+
