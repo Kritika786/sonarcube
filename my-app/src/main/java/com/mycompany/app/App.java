@@ -25,5 +25,15 @@ public class App
          * http://checkerframework.org
          */
         System.out.println("... but thankfully, Checker has our back: http://checkerframework.org");
+        
+        int minval(int *A, int n) {
+  int currmin;
+
+  for (int i=0; i<n; i++)
+    if (A[i] < currmin)
+      currmin = A[i];
+  return currmin;
+}
     }
 }
+i
